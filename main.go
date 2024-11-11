@@ -21,10 +21,7 @@ func main() {
 		if err != nil {
 			log.Fatalln("Error of reading the input file")
 		}
-		// fmt.Println(inputFile)
-		// if inputFile[0] == "" {
-		// 	log.Fatalln("Error of the file")
-		// }
+	
 		printing := rev.Reverse(inputFile, asciiMap)
 		fmt.Println(printing)
 	} else {
